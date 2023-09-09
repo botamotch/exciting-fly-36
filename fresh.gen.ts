@@ -8,6 +8,18 @@ import * as $2 from "./routes/api/joke.ts";
 import * as $3 from "./routes/greet/[name].tsx";
 import * as $4 from "./routes/index.tsx";
 import * as $$0 from "./islands/Counter.tsx";
+import * as $$1 from "./islands/ScrollGame/background.tsx";
+import * as $$2 from "./islands/ScrollGame/collisionAnimation.tsx";
+import * as $$3 from "./islands/ScrollGame/enemies.tsx";
+import * as $$4 from "./islands/ScrollGame/floatingMessage.tsx";
+import * as $$5 from "./islands/ScrollGame/game.tsx";
+import * as $$6 from "./islands/ScrollGame/input.tsx";
+import * as $$7 from "./islands/ScrollGame/main.tsx";
+import * as $$8 from "./islands/ScrollGame/particles.tsx";
+import * as $$9 from "./islands/ScrollGame/player.tsx";
+import * as $$10 from "./islands/ScrollGame/playerStates.tsx";
+import * as $$11 from "./islands/ScrollGame/ui.tsx";
+import * as $$12 from "./islands/Util.tsx";
 
 const manifest = {
   routes: {
@@ -19,6 +31,18 @@ const manifest = {
   },
   islands: {
     "./islands/Counter.tsx": $$0,
+    "./islands/ScrollGame/background.tsx": $$1,
+    "./islands/ScrollGame/collisionAnimation.tsx": $$2,
+    "./islands/ScrollGame/enemies.tsx": $$3,
+    "./islands/ScrollGame/floatingMessage.tsx": $$4,
+    "./islands/ScrollGame/game.tsx": $$5,
+    "./islands/ScrollGame/input.tsx": $$6,
+    "./islands/ScrollGame/main.tsx": $$7,
+    "./islands/ScrollGame/particles.tsx": $$8,
+    "./islands/ScrollGame/player.tsx": $$9,
+    "./islands/ScrollGame/playerStates.tsx": $$10,
+    "./islands/ScrollGame/ui.tsx": $$11,
+    "./islands/Util.tsx": $$12,
   },
   baseUrl: import.meta.url,
 };
